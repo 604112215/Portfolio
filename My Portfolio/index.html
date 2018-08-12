@@ -17,13 +17,14 @@
 <!------BODY---------------------------------->
 
 <body>
+
 <!------NAVIGATION---------------------------------->
 		
     <header>
 		<div class="headerFlex">
-			<img src="asset/logo.png" id="logo">
-
-			<!--------animated Icon----------->
+			<!-- <img src="asset/logo.png" id="logo"> -->
+            <a href="index.html"><img src="asset/logo.svg" id="logo"></a>
+		
 
 			
 			<nav>
@@ -43,7 +44,7 @@
 					<!-- <li>
 						<a href="">CONTACT</a>
 					</li> -->
-					</a>
+					
 				</ul>
 			</nav>
 		</div>
@@ -56,15 +57,24 @@
 			
            <div id="headerFlex">
 				<div id="logoContainer">
-				<img src="asset/logo.png" id="logo">
+				 <a href="index.html"><img src="asset/logo.svg" id="logo"></a>
 				</div>
            
 
 				<!--------animated Icon----------->
-	            <div id="hamber"> </div>
-
-		
+	            <div id="hamber" onclick="myFunction(this)"> 
+					  <div class="bar1"></div>
+					  <div class="bar2"></div>
+					  <div class="bar3"></div>
+	            </div>
+				
 			</div>
+
+			<script>
+			function myFunction(x) {
+			    x.classList.toggle("change");
+			}
+			</script>
         
 			<nav id="overlayNavigation">
 	           		<ul>
@@ -112,7 +122,7 @@
 					<a href="https://github.com/604112215" target="_blank"><i class="fa fa-github" ></i></a>
 				
 					<a href="https://www.linkedin.com/in/chenghan-ke-0b259b152/" target="_blank"><i class="fa fa-linkedin"></i></a>
-					<a href="https://medium.com/@hankkechenghan" target="_blank"><i class="fa fa-medium"></i></a>
+					<a href="https://medium.com/@hankkechenghan" target="_blank"><i class="fa fa-medium" id="mediumHero"></i></a>
 					<!-- <button><a href="resume.html" target="_blank">📄 RESUME</a></button> -->
 					<a href="resume.html" target="_blank"><button>📄 RESUME</button></a>
 				</div>
