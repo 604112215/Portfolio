@@ -358,7 +358,7 @@ p#footerFreelance{
 }
 
 p#footerSocial{
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 	opacity: 0.5;
 }
 
@@ -373,7 +373,7 @@ p#footerSocial{
 }
 
 p#footerCopyright{
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 	font-size: 12px;
 	opacity: 0.5;
 }
