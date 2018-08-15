@@ -48,13 +48,22 @@ header .headerFlex{
 	align-items:center;
 }
 
+/*mobile-bar-wrapper.headerFlex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 6px;
+  align-items:center;
+}*/
+
 header a{
 	position: relative;
 /*	background-color: gray;*/
 	text-decoration:none;
 	color: white;
 	font-size: 16px;
-    padding-left: 20px;
+  padding-left: 20px;
 /*    padding-right: 20px;*/
 }
 header nav a:before{
@@ -86,10 +95,24 @@ header a:hover:before{
 
 
 
-header img#logo{
+/*header img#logo{
 	position: relative;
 	width:90px;
 }
+*/
+header img#logo{
+  position: relative;
+  width:40px;
+}
+
+.mobile-bar-wrapper img#logo{
+  position: relative;
+  width:40px;
+  margin-top: 5px;
+  margin-left:16px;
+}
+
+
 
 
 nav ul {
@@ -201,7 +224,7 @@ div#contentHero{
 	margin-left:0;
 }
 .socialIcon i{
-	margin-left:20px;
+	margin-right:20px;
 }
 
 
@@ -494,7 +517,7 @@ p#footerCopyright{
     #logoContainer{
     	/*background: lightblue;*/
 
-    	width:90px;
+    	width:40px;
     	height:100%;
     	padding-top:10px;
     }

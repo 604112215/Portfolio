@@ -3,14 +3,16 @@
 <head>
 	<title>Hank Ke Design · Mirror</title>
 	<meta id="meta" name="viewport" content="width=device-width">
+	<link rel="icon" type="image/png" href="asset/favicon.png">
 	<!-- import style -->
 	<link rel="stylesheet" type="text/css" href="styles-mirror.css">
     <!-- import icon -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- font style -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Nunito:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lalezar|Paytone+One|Rozha+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900,900i" rel="stylesheet">
 </head>
 <body>
 
@@ -19,7 +21,9 @@
     <header>
 		<div class="headerFlex">
 			<!-- <img src="asset/logo.png" id="logo"> -->
-            <a href="index.html"><img src="asset/logo.svg" id="logo"></a>
+           <!--  <a href="index.html"><img src="asset/logo.svg" id="logo"></a> -->
+
+           <a href="index.html"><img src="asset/logotest.png" id="logo"></a>
 		
 
 			
@@ -37,10 +41,10 @@
 						<a href="about.html">ABOUT</a>
 					</li>
 				
-					<!-- <li>
-						<a href="">CONTACT</a>
-					</li> -->
-					</a>
+					<li>
+						<a href="https://blog.hankkedesign.com" target="_blank">BLOG</a>
+					</li>
+					
 				</ul>
 			</nav>
 		</div>
@@ -53,7 +57,7 @@
 			
            <div id="headerFlex">
 				<div id="logoContainer">
-				 <a href="index.html"><img src="asset/logo.svg" id="logo"></a>
+				 <a href="index.html"><img src="asset/logotest.png" id="logo"></a>
 				</div>
            
 
@@ -86,9 +90,9 @@
 						<a href="about.html">ABOUT</a>
 					</li>
 				
-					<!-- <li>
-						<a href="">CONTACT</a>
-					</li> -->
+					<li>
+						<a href="https://blog.hankkedesign.com" target="_blank">BLOG</a>
+					</li>
 					</a>
 				</ul>
 			</nav>
@@ -99,16 +103,16 @@
 
 <!------HERO PAGE---------------------------------->
 		
-		<div id="screenWidth"  style="background-image:url(asset/otherworks/)"></div>
+		<div id="screenWidth"  style="background-image:url(asset/mirror/mirrorCover.jpg)"></div>
 
 		<!----OVERVIEW(left)---------------------------->
 		<div class="Wrap">
 			
 			<div class="content2">
 
-				<p class="">OVERVIEW</p>
-				<P>Do you really know how to taking care of your skin?</P>
-				<P>Mirror is a mobile application that use computer vision to analyze users' skin conditions and help people who want to have healthy skin instructions to change their bad behavior of taking care of skin and the build a good behavior. It will give them a better skin condition.</P>
+				<p class="projectHead">MIRROR</p>
+				<P class="text1">Do you really know how to taking care of your skin?</P>
+				<P class="text1">Mirror is a mobile application that use computer vision to analyze users' skin conditions and help people who want to have healthy skin instructions to change their bad behavior of taking care of skin and the build a good behavior. It will give them a better skin condition.</P>
 
 				<P> <b>Please try Prototype:</b> <i><a href="https://framer.cloud/KdoLU">https://framer.cloud/KdoLU</a></i></P>
 
@@ -118,32 +122,39 @@
 
 			<div class="content2">
 
-	            <div id="wrapInfo">
+	            <div class="wrapInfo">
 	                <div>
-					<p class="">PROJECT INFO</p>
-					<P>Spring 2018<br>Individual Project</P>
+						<p class="subTitle">
+						  PROJECT INFO
+						</p>
+						<P class="text1">
+							Spring 2018<br>Individual Project
+						</P>
 					</div>
 
 					<div>
-					<p class="">INSTRUCTOR</p>
-					<P><a>Chris Risdon</a></P>
+					<p class="subTitle">INSTRUCTOR</p>
+					<P class="text1"><a href="https://www.linkedin.com/in/chrisrisdon/">
+					Chris Risdon
+				    </a></P>
 					</div>
+
 				</div>
             
-	            <div id="wrapInfo">
+	            <div class="wrapInfo">
 					<div>
-					<p class="">MY ROLES</p>
-					<P><a>UX Designer<br>UI Designer<br>Prototyper</a></P>
+					<p class="subTitle">MY ROLES</p>
+					<P class="text1">UX Designer<br>UI Designer<br>Prototyper</P>
 					</div>
 
 					<div>
-					<p class="">TOOLS</p>
-					<P>Framer.js <br>After Effect <br>Sketch  </P>
+					<p class="subTitle">TOOLS</p>
+					<P class="text1">Framer.js <br>After Effect <br>Sketch  </P>
 					</div>
 
 					<div>
-					<p class="">METHODS</p>
-					<P>User Interview<br>
+					<p class="subTitle">METHODS</p>
+					<P class="text1">User Interview<br>
 					   Usability Testing<br>
 					   Wireframing<br>
 					   Prototype</P>
@@ -153,9 +164,334 @@
 		
 		</div>
 
+		<hr>
+		
+	<!---1-One colum---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">01. Scan your skin </p>
+		<p class="text1">Mirror use computer vision to grade your skin and give you a right skin diagnosis. The diagnosis will show you what is going wrong on your skin and what kind of skin care fits you</p>
+		
+		<div class="gifWrap">
+			
+			<div class="deviceCover">
+				<img class="device" src="asset/mirror/1.gif">
+			</div>
+		   
+		   <div class="deviceCover">
+			<img class="device" src="asset/mirror/2.gif">
+		   </div>
+		   
+		   <div class="deviceCover">
+				<img class="device" src="asset/mirror/3.gif">
+		   </div>
+		</div>
+
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END:One colum---------------------------->
+
+
+	<!---2-One colum---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">02. Upgrade your skin score </p>
+		<p class="text1">Doing the skin maintenance listed on TO-DO can get extra stars after finished it. Those start can upgrade your skin score and help you get a better rank among your friends.</p>
+		
+		<div class="gifWrap">
+			
+			<div class="deviceCover">
+				<img class="device" src="asset/mirror/4.gif">
+			</div>
+		   
+		   <div class="deviceCover">
+			<img class="device" src="asset/mirror/5.gif">
+		   </div>
+		   
+		   <div class="deviceCover">
+				<img class="device" src="asset/mirror/6.gif">
+		   </div>
+		</div>
+
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END:One colum---------------------------->
+
+	<!---3-One colum---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">03. Buy skin care based on your diagnosis </p>
+		<p class="text1">In the diagnosis record, Mirror will tell what kind of skin problems you have and recommend you skin care suit for your skin. It also will show on TO-DO list. </p>
+		
+		<div class="gifWrap">
+			
+			<div class="deviceCover">
+				<img class="device" src="asset/mirror/7.gif">
+			</div>
+		   
+		   <div class="deviceCover">
+			<img class="device" src="asset/mirror/8.gif">
+		   </div>
+		   
+		   <div class="deviceCover">
+				<img class="device" src="asset/mirror/9.gif">
+		   </div>
+		</div>
+
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END:One colum---------------------------->
+     
+    <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">DESIGN PROCESS </p>
+		<p></p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/designProcess.png">
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+     <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">INTERVIEW​ </p>
+		<p></p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/interview.png">
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+  <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">DEFINE </p>
+		<p></p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/behaviorStatement.png">
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+  <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">INSIGHTS </p>
+		<p></p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/insight.jpg">
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+	 <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">BEHAVIOR BACKCASTING </p>
+		<p></p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/backcasting.jpg">
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
 
 
 
+  <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">STORYBORD </p>
+		<p></p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/storyboard.png">
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+
+	  <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">IDEALIZATION </p>
+		<p class="subTitle3">Mirror 1.0</p>
+		<p></p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/iteration1.png">
+			<img class="bigSize" src="asset/mirror/learned.png">
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+	  <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle3">Mirror 2.0- Wireframe</p>
+		<p></p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/mirror2.png">
+			<!-- <img class="bigSize" src="asset/mirror/learned.png"> -->
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+
+	 <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle3">Mirror 2.1- Testing</p>
+		<p class="text1">I did the first High-Fedilitity prototype and motion design by suing framer.js which is a CoffeeScript based tool and got some feedback from test about interactions.</p>
+		<p class="text1">I choose one of my friends as a user and ask him to finish different goals:<br><br>1. Scan skin to get a score.<br>
+
+		2. Buy skin care product.<br>
+
+		3. Doing skin maintain.<br>
+
+		4. Check at TO-DO list.</p>
+				
+		<div>
+			
+			<img class="bigSize" src="asset/mirror/testing.png">
+			<!-- <img class="bigSize" src="asset/mirror/learned.png"> -->
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+	<!---bigwrapGIF---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle3">Mirror 2.2- Feedback </p>
+		<p class="text1">Doing the skin maintenance listed on TO-DO can get extra stars after finished it. Those start can upgrade your skin score and help you get a better rank among your friends.</p>
+		
+		<div class="biggifWrap">
+			
+			<div class="barCover">
+				<img class="device2" src="asset/mirror/GIF1.gif">
+				<P class="subScribe"><strong>Zoom In& Out</strong><br>Users don’t get any feedback about when and how the computer vision works on</P>
+			</div>
+		   
+		   <div class="barCover">
+			<img class="device2" src="asset/mirror/GIF2.gif">
+			<P class="subScribe"><strong>History Record</strong><br>User can not get any understanding about the record.</P>
+		   </div>
+		   
+		   <div class="barCover">
+				<img class="device2" src="asset/mirror/GIF3.gif">
+				<P class="subScribe"><strong>Check Back</strong><br>User can not get any feedback about the record from yesterday.</P>
+		   </div>
+
+		    <div class="barCover">
+				<img class="device2" src="asset/mirror/GIF4.gif">
+				<P class="subScribe"><strong>Done</strong><br>DoneUser can not get any feedback about skin situation change after doing the skin care.</P>
+		   </div>
+
+		     <div class="barCover">
+				<img class="device2" src="asset/mirror/GIF5.gif">
+				<P class="subScribe"><strong>Unlock</strong><br>User need interaction of putting skin care in Todo list</P>
+		   </div>
+
+
+		</div>
+
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END:One colum---------------------------->
+
+  <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle3">Mirror 3.0</p>
+		<p class="text1">I used Framer.js to make motion design by using CoffeeScript and add feedbacks  to respond to each interactions.</p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/framer.png">
+			<!-- <img class="bigSize" src="asset/mirror/learned.png"> -->
+		</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+
+	  <!----One colum(title text image)---------------------------->
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle3">What changed on Mirror 3.0</p>
+		<p class="text1">I used Framer.js to make motion design by using CoffeeScript and add feedbacks  to respond to each interactions.</p>
+		
+		<div>
+			<img class="bigSize" src="asset/mirror/change.png">
+			<p class="text1"><strong>Mainpage</strong><br>
+			1. Based on testing, I found that users can not get any useful information from the abstract skin problems table on Mirror 2.0. Thus I changed this table to Skin Diagnosis. The skin diagnosis will be created after grading skin.<br>
+			2. Adding a Grade Button under the mirror. Users should press it to grade their skin.<br>
+			3. Adding Scan animation in the mirror(the big circle), it helps users understand the camera is working.</p>
+
+			<p class="text1"><strong class="text1">To-Do</strong><br>
+			1. Adding Score Review above todo list, User can directly know how many scores they get after finishing one maintain.</p>
+			<!-- <img class="bigSize" src="asset/mirror/learned.png"> -->
+		</div>
+		<!-------------> 
+		<hr>
+
+		<div>
+				<img class="bigSize" src="asset/mirror/change2.png">
+				<p class="text1"><strong>Product details page</strong><br>
+				1.If the user light on the start, it means it will be unlocked on the to-do list. Users can do this new unlocked skin maintain to get score reward.</p>
+
+				<p class="text1"><strong>Skin score record - Rank</strong><br>
+				1. I deleted Skin score record page and replaced it by Ranking page because the historical record is so ambiguous for a user to track his history states and pointless. However, the ranking page can show the user the rank among her/his friends. It can improve users’ motivation.</p>
+				<!-- <img class="bigSize" src="asset/mirror/learned.png"> -->
+			</div>
+		<!-------------> 
+	</div>
+	<hr>
+	<!----END---------------------------->
+
+	<div class="oneColumContainer">
+		<!------------->
+		<p class="subTitle2">PLAY WITH PROTOTYPE</p>
+		<p></p>
+		
+		<div>
+			<!-- <img class="bigSize" src="asset/mirror/framer.png"> -->
+			<!-- <img class="bigSize" src="asset/mirror/learned.png"> -->
+		<iframe src="https://framer.cloud/KdoLU" width="500" height="650" frameborder="0"/><p>Your browser does not support iframes.</p></iframe>
+		</div>
+		<!-------------> 
+	</div>
+	
+	<!----END---------------------------->
 
 
 
@@ -175,12 +511,12 @@
 			<div>
 				<p id="footerSocial">Social</p>
 				<div class="socialIcon">
-					<a href="https://github.com/604112215"><i class="fa fa-github" style="font-size:20px;"></i></a>
-					<a href="https://www.linkedin.com/in/chenghan-ke-0b259b152/"><i class="fa fa-linkedin" style="font-size:20px;"></i></a>
-					<a href="https://medium.com/@hankkechenghan"><i class="fa fa-medium" style="font-size:20px;"></i></a>
+					<a href="https://github.com/604112215" target="_blank"><i class="fa fa-github" style="font-size:20px;"></i></a>
+					<a href="https://www.linkedin.com/in/chenghan-ke-0b259b152/" target="_blank"><i class="fa fa-linkedin" style="font-size:20px;"></i></a>
+					<a href="https://medium.com/@hankkechenghan" target="_blank"><i class="fa fa-medium" style="font-size:20px;"></i></a>
 					<!-- <a href=""><i class="fa fa-behance" style="font-size:20px;"></i></a> -->
-					<a href="https://dribbble.com/hankke"><i class="fa fa-dribbble" style="font-size:20px;"></i></a>
-					<a href="https://codepen.io/Panda_Hank/"><i class="fa fa-codepen" style="font-size:20px;"></i></a>			
+					<a href="https://dribbble.com/hankke" target="_blank"><i class="fa fa-dribbble" style="font-size:20px;"></i></a>
+					<a href="https://codepen.io/Panda_Hank/" target="_blank"><i class="fa fa-codepen" style="font-size:20px;"></i></a>			
 				</div>
 				<p id="footerCopyright">Copyright @ 2018 Chenghan Ke</p>
 		    </div>
