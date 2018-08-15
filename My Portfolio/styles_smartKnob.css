@@ -381,7 +381,6 @@ footer{
 }
 
 .footerWrap{
-    /*background-color: red;*/
     width: 780px;
     display: flex;
 	flex-wrap: wrap;
@@ -774,8 +773,7 @@ p#footerCopyright{
 
    div.footerWrap{
     width: 90%;
-
-      }
+    }
 
    footer{
     height: auto;
