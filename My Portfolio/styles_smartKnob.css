@@ -381,8 +381,8 @@ footer{
 }
 
 .footerWrap{
-    width: 780px;
-    display: flex;
+  width: 780px;
+  display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items:flex-end;
@@ -400,7 +400,6 @@ p#footerFreelance{
 }
 
 p#footerSocial{
-	margin-left: 20px;
 	opacity: 0.5;
 }
 
@@ -416,7 +415,6 @@ p#footerSocial{
 }
 
 p#footerCopyright{
-	margin-left: 20px;
 	font-size: 12px;
 	opacity: 0.5;
 }
