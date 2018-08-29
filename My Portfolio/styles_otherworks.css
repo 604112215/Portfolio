@@ -1,11 +1,12 @@
 body{
-	margin:0;
-	padding: 0;
-	background-color: #EAEAEA;
-	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;	
+  margin:0;
+  padding: 0;
+  background-color: #EAEAEA;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  font-family: 'Nunito', sans-serif;
 }
-
 p{
 	font-family: 'Nunito', sans-serif;
 }
@@ -27,7 +28,8 @@ header{
   left: 0;
   width:100%;
   height: 54px;
-  background-color: #7806FC;
+  background-color: #8200FE;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -44,23 +46,16 @@ header .headerFlex{
   align-items:center;
 }
 
-/*mobile-bar-wrapper.headerFlex{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding-top: 6px;
-  align-items:center;
-}*/
+
 
 header a{
   position: relative;
-/*  background-color: gray;*/
+
   text-decoration:none;
   color: white;
   font-size: 16px;
   padding-left: 20px;
-/*    padding-right: 20px;*/
+
 }
 header nav a:before{
   content:''; 
@@ -70,32 +65,23 @@ header nav a:before{
     bottom: 0;
     left: 20px;
     right: 0;
-    height: 227%;
+    height: 210%;
     width:80%;
     margin: auto;
-    border-bottom: 5px solid #57F2EA;
+    border-bottom: 5px solid #09DED3;
     transform: scale(0);
     opacity: 0;
-    /*transition: 0.2s;*/
 }
 header a:hover{
-  color: #57F2EA;
-/*  font-weight: bold;*/
+  color:#09DED3;
 }
 header a:hover:before{
-  /*background-color: red;*/
   transform: scale(1);
   opacity: 1;
   transition: 0.2s;
 }
 
 
-
-/*header img#logo{
-  position: relative;
-  width:90px;
-}
-*/
 header img#logo{
   position: relative;
   width:40px;
@@ -120,16 +106,11 @@ nav ul {
 
 
 nav li{
-  /*background:red;*/
     display: inline;
     color: white;
     text-align: center;
     text-decoration: none;
 }
-/*
-  nav{
-    margin-right: 50px;
-  }*/
 
 
 
@@ -139,8 +120,6 @@ nav li{
   /*---------- Article ----------------------------------------*/
   		
 		.publishedArticles{
-			/*background-color: red;*/
-			/*width:90%;*/
 			width: 800px;
 			margin: 100px auto;
 			margin-bottom: 40px;
@@ -153,7 +132,7 @@ nav li{
 
   		.imageContainer{
 			background-color: blue;
-			/*width:90%;*/
+
 			width:800px;
 			height:120px;
 			border-top-left-radius: 4px;
@@ -193,8 +172,7 @@ nav li{
 /*---------- Dribble Section ----------------------------------------*/
 
 		.cardSection{
-			/*background-color: red;*/
-			/*width:90%;*/
+
 			width: 800px;
 			margin: 100px auto;
 			margin-bottom: 40px;
@@ -212,11 +190,10 @@ nav li{
 
   		div.cardSection .imageContainer{
 			background-color: blue;
-			/*width:90%;*/
+	
 			width:245px;
 			height:245px;
 			border-radius: 2px;
-		    /*border-top-right-radius: 4px;*/
 	        background-size: 245px ;
 		    background-position: center;
 		    background-repeat: no-repeat;
@@ -277,11 +254,12 @@ nav li{
 /*---------- Footer ----------------------------------------*/
 
 footer{
-	color: white;
-	width:100%;
-	height: 219px;
-	margin-top: 100px;
-	background: linear-gradient(#7314C6, #151F67);
+  color: white;
+  width:100%;
+  height: 219px;
+  margin-top: 100px;
+  background: linear-gradient(#8200FE, #151F67);
+  
 }
 
 .footerWrap{
@@ -316,11 +294,11 @@ p#footerSocial{
 
 .footerWrap div.socialIcon a:hover{
 	text-decoration: none;
-	color:black;
+  color:#09DED3;
 }
 
 p#footerCopyright{
-	/*margin-left: 20px;*/
+
 	font-size: 12px;
 	opacity: 0.5;
 }
@@ -377,11 +355,8 @@ p#footerCopyright{
   }
 
   div.cardSection .card{
-    /*margin-right: 20px;*/
     width: 200px;
     height: 200px;
-   /* width:87%;
-    height: 87%;*/
     margin-bottom: 20px;
 
 
@@ -439,7 +414,7 @@ p#footerCopyright{
     /*------Header fixed--------------------------------*/
     #headerFlex{
     	height: 54px;
-    	background-color:#7806FC;
+    	background-color:#8200FE;
     	display: flex;
     	flex-wrap: wrap;
     	justify-content: space-between;
@@ -712,6 +687,9 @@ p#footerCopyright{
    
    .imageContainer{
     width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
    }
 
    .card{

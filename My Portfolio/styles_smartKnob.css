@@ -1,12 +1,11 @@
 body{
 	margin:0;
 	padding: 0;
-	/*background-color: #EAEAEA;*/
   background-color: white;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;	
-  line-height: 1.4;
+	font-family: 'Nunito', sans-serif;
   letter-spacing: 0.4px;
+  line-height: 23px;
 }
 
 p{
@@ -36,7 +35,7 @@ header{
   left: 0;
   width:100%;
   height: 54px;
-  background-color: #7806FC;
+  background-color: #8200FE;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -74,14 +73,13 @@ header nav a:before{
     height: 227%;
     width:80%;
     margin: auto;
-    border-bottom: 5px solid #57F2EA;
+    border-bottom: 5px solid #09DED3;
     transform: scale(0);
     opacity: 0;
-
 }
-header a:hover{
-  color: #57F2EA;
 
+header a:hover{
+  color: #09DED3;
 }
 header a:hover:before{
 
@@ -131,6 +129,8 @@ nav li{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 900;
+  letter-spacing: 0.5px;
+  line-height: 46px;
 
 }
 
@@ -153,24 +153,29 @@ nav li{
 }
 
 .subTitle3{
-  font-size: 14px;
+  font-size: 15px;
 
   font-family: 'Montserrat', sans-serif;
 
-  font-weight: 500;
+  font-weight:600;
   margin-bottom: 0px;
 }
 
 .text1{
-  font-size: 15px;
-  font-weight: 900;
+  font-size: 14px;
+  font-weight: 400;
   color:#828282;
+}
+
+p.text1 strong{
+  color:black;
+  font-weight:900;
 }
 
 .subScribe{
   font-size: 12px;
   color:#828282;
-  font-weight: 900;
+  font-weight: 200i;
 }
  
 
@@ -298,9 +303,9 @@ p.subScribe{
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: grey;
+  color: #8200FE ;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
@@ -313,7 +318,9 @@ p.subScribe{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  color: white;
+  background-color: #8200FE;
+  opacity: 1;
 }
 
 /* Caption text */
@@ -339,17 +346,19 @@ p.subScribe{
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 6px;
-  width: 6px;
+  height: 10px;
+  width: 10px;
   margin: 0 6px;
-  background-color: #bbb;
+  background-color: #8200FE;
+  opacity: 0.5;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #8200FE;
+  opacity: 1;
 }
 
 /* Fading animation */
@@ -373,55 +382,56 @@ p.subScribe{
 /*---------- Footer ----------------------------------------*/
 
 footer{
-	color: white;
-	width:100%;
-	height: 219px;
-	margin-top: 100px;
-	background: linear-gradient(#7314C6, #151F67);
+  color: white;
+  width:100%;
+  height: 219px;
+  margin-top: 100px;
+  background: linear-gradient(#8200FE, #151F67);
 }
 
 .footerWrap{
-  width: 780px;
-  display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items:flex-end;
-	margin:0 auto;
-	padding:30px 0px;
+width: 780px;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:flex-end;
+  margin:0 auto;
+  padding:30px 0px;
 }
 
 p#footerContact{
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 p#footerFreelance{
-	opacity: 0.5;
-	font-size: 13px;
+  opacity: 0.5;
+  font-size: 13px;
 }
 
 p#footerSocial{
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 .footerWrap div.socialIcon a{
-	text-decoration: none;
-	color:white;
-	margin-right:20px;
+  text-decoration: none;
+  color:white;
+  margin-right:20px;
 }
 
 .footerWrap div.socialIcon a:hover{
-	text-decoration: none;
-	color:black;
+  text-decoration: none;
+  color:#09DED3;
+
 }
 
 p#footerCopyright{
-	font-size: 12px;
-	opacity: 0.5;
+  font-size: 12px;
+  opacity: 0.5;
 }
 
 #footerEmail a{
-	text-decoration: none;
-	color:white;
+  text-decoration: none;
+  color:white;
 }
 
 
@@ -527,7 +537,7 @@ p#footerCopyright{
     /*------Header fixed--------------------------------*/
     #headerFlex{
       height: 54px;
-      background-color:#7806FC;
+      background-color:#8200FE;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;

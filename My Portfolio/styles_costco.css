@@ -1,13 +1,13 @@
 body{
-	margin:0;
-	padding: 0;
-	/*background-color: #EAEAEA;*/
+  margin:0;
+  padding: 0;
   background-color: white;
-	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;	
-  line-height: 1.4;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 0.4px;
+  line-height: 23px;
 }
+
 
 p{
 	font-family: 'Nunito', sans-serif;
@@ -36,7 +36,7 @@ header{
   left: 0;
   width:100%;
   height: 54px;
-  background-color: #7806FC;
+  background-color: #8200FE;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -56,12 +56,10 @@ header .headerFlex{
 
 header a{
   position: relative;
-/*  background-color: gray;*/
   text-decoration:none;
   color: white;
   font-size: 16px;
   padding-left: 20px;
-/*    padding-right: 20px;*/
 }
 header nav a:before{
   content:''; 
@@ -74,17 +72,14 @@ header nav a:before{
     height: 227%;
     width:80%;
     margin: auto;
-    border-bottom: 5px solid #57F2EA;
+    border-bottom: 5px solid #09DED3;
     transform: scale(0);
     opacity: 0;
-    /*transition: 0.2s;*/
 }
 header a:hover{
-  color: #57F2EA;
-/*  font-weight: bold;*/
+  color: #09DED3;
 }
 header a:hover:before{
-  /*background-color: red;*/
   transform: scale(1);
   opacity: 1;
   transition: 0.2s;
@@ -129,42 +124,37 @@ nav li{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 900;
+  letter-spacing: 0.5px;
+  line-height: 46px;
 
 }
 
 .subTitle{
   font-size: 16px;
-  /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Montserrat', sans-serif;
   opacity: 0.5;
-  /*color:#828282;*/
   font-weight: 900;
 
 }
 
-.subTitle2{/*
-  position: relative;*/
+.subTitle2{
   font-size: 18px;
-  /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Montserrat', sans-serif;
-  /*color:#828282;*/
   font-weight: 900;
   margin-bottom: 0px;
 
 }
 
 .subTitle3{
-  font-size: 14px;
-  /*font-family: 'Roboto', sans-serif;*/
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
-  /*color:#828282;*/
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0px;
 }
 
 .text1{
-  font-size: 15px;
-  font-weight: 900;
+  font-size: 14px;
+  font-weight: 400;
   color:#828282;
 }
 
@@ -176,7 +166,7 @@ p.text1 strong{
 .subScribe{
   font-size: 12px;
   color:#828282;
-  font-weight: 900;
+  font-weight: 200i;
 }
  
 
@@ -297,12 +287,13 @@ p.subScribe{
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: grey;
+  color: #8200FE ;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
+
 
 /* Position the "next button" to the right */
 .next {
@@ -312,7 +303,9 @@ p.subScribe{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  color: white;
+  background-color: #8200FE;
+  opacity: 1;
 }
 
 /* Caption text */
@@ -338,17 +331,19 @@ p.subScribe{
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 6px;
-  width: 6px;
+  height: 10px;
+  width: 10px;
   margin: 0 6px;
-  background-color: #bbb;
+  background-color: #8200FE;
+  opacity: 0.5;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #8200FE;
+  opacity: 1;
 }
 
 /* Fading animation */
@@ -374,17 +369,16 @@ p.subScribe{
 /*---------- Footer ----------------------------------------*/
 
 footer{
-	color: white;
-	width:100%;
-	height: 219px;
-	margin-top: 100px;
-	background: linear-gradient(#7314C6, #151F67);
+  color: white;
+  width:100%;
+  height: 219px;
+  margin-top: 100px;
+  background: linear-gradient(#8200FE, #151F67);
 }
 
 .footerWrap{
-    /*background-color: red;*/
-    width: 780px;
-    display: flex;
+  width: 780px;
+  display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items:flex-end;
@@ -402,7 +396,6 @@ p#footerFreelance{
 }
 
 p#footerSocial{
-	/*margin-left: 20px;*/
 	opacity: 0.5;
 }
 
@@ -414,11 +407,11 @@ p#footerSocial{
 
 .footerWrap div.socialIcon a:hover{
 	text-decoration: none;
-	color:black;
+	color:#09DED3;
+
 }
 
 p#footerCopyright{
-	/*margin-left: 20px;*/
 	font-size: 12px;
 	opacity: 0.5;
 }
@@ -529,7 +522,7 @@ p#footerCopyright{
     /*------Header fixed--------------------------------*/
     #headerFlex{
       height: 54px;
-      background-color:#7806FC;
+      background-color:#8200FE;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
