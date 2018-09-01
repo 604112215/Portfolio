@@ -112,6 +112,19 @@ nav li{
     text-decoration: none;
 }
 
+#project{
+  opacity: 0.6;
+}
+#about{
+  opacity: 0.6;
+}
+#project:hover{
+  opacity: 1;
+}
+
+#about:hover{
+  opacity: 1;
+}
 
 
 

@@ -17,6 +17,8 @@ h1, h2{
 
 }
 
+
+
 /*---------- HEADER ----------------------------------------*/
 
 .mobile-bar-wrapper{
@@ -111,6 +113,19 @@ nav li{
     text-decoration: none;
 }
 
+#other{
+  opacity: 0.6;
+}
+#project{
+  opacity: 0.6;
+}
+#other:hover{
+  opacity: 1;
+}
+
+#project:hover{
+  opacity: 1;
+}
 
 
 

@@ -117,6 +117,19 @@ nav li{
     text-decoration: none;
 }
 
+#other{
+  opacity: 0.6;
+}
+#about{
+  opacity: 0.6;
+}
+#other:hover{
+  opacity: 1;
+}
+
+#about:hover{
+  opacity: 1;
+}
 
 
 /*----Font style-------*/
