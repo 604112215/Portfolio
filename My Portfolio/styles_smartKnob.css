@@ -35,7 +35,7 @@ header{
   left: 0;
   width:100%;
   height: 54px;
-  background-color: #8200FE;
+  background-color:#673ab7;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -73,13 +73,13 @@ header nav a:before{
     height: 227%;
     width:80%;
     margin: auto;
-    border-bottom: 5px solid #09DED3;
+    border-bottom: 5px solid #9a67ea;
     transform: scale(0);
     opacity: 0;
 }
 
 header a:hover{
-  color: #09DED3;
+  color: #9a67ea;
 }
 header a:hover:before{
 
@@ -315,7 +315,7 @@ p.subScribe{
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: #8200FE ;
+  color: #673ab7;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
@@ -331,7 +331,7 @@ p.subScribe{
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   color: white;
-  background-color: #8200FE;
+  background-color: #673ab7;
   opacity: 1;
 }
 
@@ -361,7 +361,7 @@ p.subScribe{
   height: 10px;
   width: 10px;
   margin: 0 6px;
-  background-color: #8200FE;
+  background-color: #673ab7;
   opacity: 0.5;
   border-radius: 50%;
   display: inline-block;
@@ -369,7 +369,7 @@ p.subScribe{
 }
 
 .active, .dot:hover {
-  background-color: #8200FE;
+  background-color: #9a67ea;
   opacity: 1;
 }
 
@@ -398,7 +398,7 @@ footer{
   width:100%;
   height: 219px;
   margin-top: 100px;
-  background: linear-gradient(#8200FE, #151F67);
+  background: #673ab7;
 }
 
 .footerWrap{
@@ -432,7 +432,7 @@ p#footerSocial{
 
 .footerWrap div.socialIcon a:hover{
   text-decoration: none;
-  color:#09DED3;
+  color:#9a67ea;
 
 }
 
@@ -549,7 +549,7 @@ p#footerCopyright{
     /*------Header fixed--------------------------------*/
     #headerFlex{
       height: 54px;
-      background-color:#8200FE;
+      background-color:#673ab7;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -597,7 +597,7 @@ p#footerCopyright{
       width: 100%;
       height: 100%;
       /*background:#5B2788;*/
-      background:#7806FC;
+      background:#673ab7;
       opacity: 0.9;
       /*height:0%;
       width: 100%;*/
@@ -694,7 +694,7 @@ p#footerCopyright{
     /*------Header fixed--------------------------------*/
     #headerFlex{
       height: 54px;
-      background-color:#7806FC;
+      background-color:#673ab7;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -739,7 +739,7 @@ p#footerCopyright{
     nav#overlayNavigation{
       width: 100%;
       /*background:#5B2788;*/
-      background:#7806FC;
+      background:#673ab7;
       opacity: 0.9;
       /*height:0%;
       width: 100%;*/

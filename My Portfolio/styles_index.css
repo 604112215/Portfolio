@@ -29,7 +29,7 @@ header{
 	left: 0;
 	width:100%;
 	height: 54px;
-	background-color: #8200FE;
+  background-color: #673ab7;
   display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
@@ -68,12 +68,12 @@ header nav a:before{
     height: 210%;
     width:80%;
     margin: auto;
-    border-bottom: 5px solid #09DED3;
+    border-bottom: 5px solid #9a67ea;
     transform: scale(0);
     opacity: 0;
 }
 header a:hover{
-	color:#09DED3;
+	color:#9a67ea;
 }
 header a:hover:before{
 	transform: scale(1);
@@ -137,7 +137,6 @@ nav li{
   height:590px;
 	margin-top: 54px;
 	padding-top: 0px;
-	/*background: linear-gradient(#7806FC, #9C32F8);*/
   background: white;
 }
 
@@ -166,7 +165,7 @@ div#contentHero{
 
 #bioS a{
 	text-decoration: none;
-	color: #8200FE;	
+	color: #673ab7;	
 }
 
 
@@ -237,19 +236,19 @@ margin-left:20px;
 margin-bottom: 10px;
 font-size: 13px;
 border-radius: 0px;
-background-color:#8200FE;
+background-color:#673ab7;
 color:white;
 font-family: 'Nunito', sans-serif;
 font-weight: bolder;
 opacity: 0.9;
 cursor: pointer;
-border: 4px solid #8200FE;
+border: 4px solid #673ab7;
 
 }
 .resumeBar button:hover{
 	background-color:white;
-	color:#8200FE;
-  border: 4px solid #8200FE;
+	color:#673ab7;
+  border: 4px solid #673ab7;
 	opacity: 1;
 }
 
@@ -261,7 +260,7 @@ border: 4px solid #8200FE;
 	color:black;
 }
 .socialIcon a:hover{
-	color:#7806FC;
+	color:#673ab7;
 }
 
 .socialIcon button :hover{
@@ -359,7 +358,7 @@ footer{
 	width:100%;
 	height: 219px;
 	margin-top: 100px;
-	background: linear-gradient(#8200FE, #151F67);
+	background: #673ab7;
   
 }
 
@@ -392,7 +391,7 @@ p#footerSocial{
 
 .footerWrap div.socialIcon a:hover{
 	text-decoration: none;
-	color:#09DED3;
+	color:#9a67ea;
 }
 
 p#footerCopyright{
@@ -501,7 +500,7 @@ p#footerCopyright{
     /*------Header fixed--------------------------------*/
     #headerFlex{
     	height: 54px;
-    	background-color:#8200FE;
+    	background-color:#673ab7;
     	display: flex;
     	flex-wrap: wrap;
     	justify-content: space-between;
@@ -546,13 +545,9 @@ p#footerCopyright{
     nav#overlayNavigation{
     	width: 100%;
     	height: 100%;
-    	/*background:#5B2788;*/
-    	background:#7806FC;
+    	background:#673ab7;
     	opacity: 0.9;
-    	/*height:0%;
-    	width: 100%;*/
     	display: none;
-    	/*transition: 0.5s;*/
     }
 
 	nav ul {
@@ -702,7 +697,7 @@ p#footerCopyright{
     /*------Header fixed--------------------------------*/
     #headerFlex{
     	height: 54px;
-    	background-color:#8200FE;
+    	background-color:#673ab7;
     	display: flex;
     	flex-wrap: wrap;
     	justify-content: space-between;
@@ -745,7 +740,7 @@ p#footerCopyright{
 
     nav#overlayNavigation{
     	width: 100%;
-    	background:#7806FC;
+    	background:#673ab7;
     	opacity: 0.9;
     	display: none;
     }
