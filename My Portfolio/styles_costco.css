@@ -1,6 +1,7 @@
 body{
   margin:0;
   padding: 0;
+  /*background-color: F3F3F3;*/
   background-color: white;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
@@ -21,7 +22,7 @@ hr{
   width: 820px;
   opacity: 0.2;
   text-align: center;
-  margin: 40px auto;
+  margin: 70px auto;
 }
 
 /*---------- HEADER ----------------------------------------*/
@@ -151,7 +152,7 @@ nav li{
 }
 
 .subTitle2{
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   margin-bottom: 0px;
@@ -166,9 +167,10 @@ nav li{
 }
 
 .text1{
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
-  color:#828282;
+  /*color:#828282;*/
+  color: #414141;
 }
 
 p.text1 strong{
@@ -306,6 +308,8 @@ p.subScribe{
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
+
+
 
 
 /* Position the "next button" to the right */

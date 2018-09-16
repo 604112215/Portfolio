@@ -20,7 +20,7 @@ hr{
   width: 820px;
   opacity: 0.2;
   text-align: center;
-  margin: 20px auto;
+  margin: 70px auto;
 }
 
 /*---------- HEADER ----------------------------------------*/
@@ -155,7 +155,7 @@ nav li{
 }
 
 .subTitle2{
-  font-size: 18px;
+  font-size: 20px;
 
   font-family: 'Montserrat', sans-serif;
 
@@ -174,9 +174,9 @@ nav li{
 }
 
 .text1{
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
-  color:#828282;
+  color:#414141;
 }
 
 p.text1 strong{
