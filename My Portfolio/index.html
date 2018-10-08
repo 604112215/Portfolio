@@ -22,55 +22,23 @@
 
 <!------NAVIGATION---------------------------------->
 		
-    <header>
-		<div class="headerFlex">
-
-           <a href="index.html"><img src="asset/logotest.png" id="logo"></a>
-		
-
-			
-			<nav>
-	           		<ul>
-					<li id="project"><a href="index.html">
-						PROJECTS</a>
-					</li>
-					
-					<li id="other">
-						<a href="otherwork.html">OTHER WORKS</a>
-					</li>
-				
-					<li id="about">
-						<a href="about.html">ABOUT</a>
-					</li>
-				
-					<!-- <li>
-						<a href="https://blog.hankkedesign.com" target="_blank">BLOG</a>
-					</li> -->
-					
-				</ul>
-			</nav>
-		</div>
-	
-	</header>
-
 	<!----moblie---->
 	<div class="mobile-bar-wrapper">
       <div class="headerFlex">
 			
            <div id="headerFlex">
 				<div id="logoContainer">
-				 <a href="index.html"><img src="asset/logotest.png" id="logo"></a>
+				<a href="index.html"><img src="asset/index/logo.png" id="logo"></a>
 				</div>
            
 
 				<!--------animated Icon----------->
-	            <div id="hamber" onclick="myFunction(this)"> 
-					  <div class="bar1"></div>
-					  <div class="bar2"></div>
-					  <div class="bar3"></div>
-	            </div>
+				<div id="hamber" onclick="myFunction(this)"> 
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+				</div>
 				
-			</div>
+		</div>
 
 			<script>
 			function myFunction(x) {
@@ -91,30 +59,21 @@
 					<li>
 						<a href="about.html">ABOUT</a>
 					</li>
-				
-					<!-- <li>
-						<a href="https://blog.hankkedesign.com" target="_blank">BLOG</a>
-					</li> -->
 					</ul>
 			</nav>
 		</div>
 		
-
 	</div>
 
 
 <!------HERO PAGE---------------------------------->
 
-	<div class="heroPage">
-	
-		<div class="flexBox">
+	<div class="heroPage" style="background-image:url(asset/index/hero.png)">
+	   
+	   <div class="constrain" style="background:none;">
+			
 			<div id="contentHero">
-				<p id="Hello">Hi, I am Hank Ke.</p>
-				
-				<p id="bioS">	
-				<a href="about.html">I'm a UX & UI Designer with strong prototyping and implementation skills. I used to work closely with stakeholders and engineers👨‍💻to bridge gaps between users and products.</a></p>
-				<p id="tips">Looking forward to a new position and opportunity.
-				</p>
+				<p id="Hello">Hank is a Product Designer with strong prototyping and implimentation <a href="https://drive.google.com/file/d/1Hpoog0Qh54SJ9NvYo4F2V7boL-COh70n/view" target="_blank">skills</a></p>
 			</div>
 
 			<div class="resumeBar">
@@ -122,71 +81,105 @@
 
 					<a href="https://github.com/604112215" target="_blank"><i class="fa fa-github" ></i></a>
 				
-					<a href="https://www.linkedin.com/in/chenghan-ke-0b259b152/" target="_blank"><i class="fa fa-linkedin"></i></a>
+					<a href="https://www.linkedin.com/in/chenghan-ke" target="_blank"><i class="fa fa-linkedin"></i></a>
 					<a href="https://medium.com/@hankkechenghan" target="_blank"><i class="fa fa-medium" id="mediumHero"></i></a>
 					
-					<a href="https://drive.google.com/open?id=153uE2OjeFw8HSocWmqnchE8zqGKk1hvj" target="_blank"><button>📄RESUME</button></a>
+					<!-- <a href="https://drive.google.com/file/d/1Hpoog0Qh54SJ9NvYo4F2V7boL-COh70n/view" target="_blank"><button>📄RESUME</button></a> -->
 				</div>
 			</div>
+
+		<a href="#selctedWorks"><div class="button"><p>See Highlited Works</p></div></a>
+		</div>
+
+	</div>
+<!------WHO HE IS?---------------------------------->
+<div class="constrain">
+	<div class="catagory">who he is?</div>
+
+	<div class="quotFlex">
+		<div id="quot">
+
+			<p class="quot">An innovative and reliable product designer who worth to cooperate with</p>
+			<div class="button"><p>Resume</p></div>
+		
 		</div>
 		
-
+		<div class="brif">
+			<p>He worksworks closely with stakeholders and engineers to bridge gaps between users and products. </p>
+				
+				<p>His works have a wide range from digital product design to service design. 
+					He knows how to build a shared understanding with stockholders and engineers by prototyping ideas.  </p>
+					<p>He currently is working at the San Francisco Engineering Leadership Community (SFELC)as a UI designer(part-time). </p>
+			<p>Looking forward to a new position and opportunities.please keep in touch by <a href="mailto:contact@hankkedesign.com" target="_top">email</a> or <a href="https://www.linkedin.com/in/chenghan-ke">LinkedIn</a><p>
+		</div>
 	</div>
+</div>
 
+<!------Profiles?---------------------------------->
+<div id="black" class="constrain">
+	<div id="prfile">
+			<p id="recommend">"Hank is highly responsive person, He "</p>
+		    <p>-Jerry Li<br>
+				Founder @ SFELC</p>
+	</div>
+</div>
 
-
-<!------GALLERY---------------------------------->
+<!------GALLERY Selected work---------------------------------->
+<div class="constrain">
+	<div class="catagory" id="selctedWorks">Highlited Works</div>
+		
 	<div class="projectFlex">
-	<!------card 1--------------------------------->
-		<a href="close.html"><div class="card">
-			<div class="imageContainer" style="background-image:url(asset/pemhub/cover.jpg)"></div>
 
-			<div class="contentCover">
-				<h2>Pemhub</h2>
-				<div>Summer internship</div>
-			</div>
+			<!------card 1--------------------------------->
+			<a href="SmartKnob.html"><div class="card">
+				<div class="imageContainer" style="background-image:url(asset/smartknob/cover.jpg)"></div>
 
-		</div></a>
+				<div class="contentCover">
+					<h2>Smart Knob</h2>
+					<div>IOT | Conversational Interface | Prototype</div>
+				</div>
+
+			</div></a>
 
 		<!------card 2--------------------------------->
-		<a href="SmartKnob.html"><div class="card">
-			<div class="imageContainer" style="background-image:url(asset/smartknob/cover.jpg)"></div>
+			<a href="sfelc.html"><div class="card">
+				<div class="imageContainer" style="background-image:url(asset/pemhub/cover.jpg)"></div>
 
-			<div class="contentCover">
-				<h2>Smart Knob</h2>
-				<div>IOT | Conversational Interface | Prototype</div>
-			</div>
+				<div class="contentCover">
+					<h2>SFELC</h2>
+					<div>Part-time</div>
+				</div>
 
-		</div></a>
+			</div></a>
 
-	<!------card 3--------------------------------->
-		<a href="costco.html"><div class="card">
-			
-			<div class="imageContainer" style="background-image:url(asset/costco/COVER.jpg)"></div>
+		<!------card 3--------------------------------->
+			<a href="costco.html"><div class="card">
+				
+				<div class="imageContainer" style="background-image:url(asset/costco/COVER.jpg)"></div>
 
-			<div class="contentCover">
-				<h2>Costco Sharing</h2>
-				<div>Service Design | Prototype | Insight</div>
-			</div>
+				<div class="contentCover">
+					<h2>Costco Sharing</h2>
+					<div>Service Design | Prototype | Insight</div>
+				</div>
 
-		</div></a>
+			</div></a>
 
-	
+		
 
-			<!------card 4--------------------------------->
-		<a href="projectMirror.html"><div class="card">
-			
-			<div class="imageContainer" style="background-image:url(asset/mirror/mirrorCover.jpg)"></div>
+				<!------card 4--------------------------------->
+			<a href="projectMirror.html"><div class="card">
+				
+				<div class="imageContainer" style="background-image:url(asset/mirror/mirrorCover.jpg)"></div>
 
-			<div class="contentCover">
-				<h2>Mirror</h2>
-				<div>Computer Vision | Behavior Design | Prototype</div>
-			</div>
+				<div class="contentCover">
+					<h2>Mirror</h2>
+					<div>Computer Vision | Behavior Design | Prototype</div>
+				</div>
 
-		</div></a>
+			</div></a>
 
-	</div>
-
+		</div>
+</div>
 
 <!------FOOTER---------------------------------->
 	<footer>
@@ -202,7 +195,7 @@
 				<p id="footerSocial">Social</p>
 				<div class="socialIcon">
 					<a href="https://github.com/604112215" target="_blank"><i class="fa fa-github" style="font-size:20px;"></i></a>
-					<a href="https://www.linkedin.com/in/chenghan-ke-0b259b152/" target="_blank"><i class="fa fa-linkedin" style="font-size:20px;"></i></a>
+					<a href="https://www.linkedin.com/in/chenghan-ke" target="_blank"><i class="fa fa-linkedin" style="font-size:20px;"></i></a>
 					<a href="https://medium.com/@hankkechenghan" target="_blank"><i class="fa fa-medium" style="font-size:20px;"></i></a>
 					<!-- <a href=""><i class="fa fa-behance" style="font-size:20px;"></i></a> -->
 					<a href="https://dribbble.com/hankke" target="_blank"><i class="fa fa-dribbble" style="font-size:20px;"></i></a>

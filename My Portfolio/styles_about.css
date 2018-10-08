@@ -22,110 +22,107 @@ h1, h2{
 /*---------- HEADER ----------------------------------------*/
 
 .mobile-bar-wrapper{
-  display: none;
-}
-
-header{
+  width: 100%;
+  display: block;
   position: fixed;
-  top: 0;
-  left: 0;
-  width:100%;
-  height: 54px;
-  background-color: #673ab7;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  top: 0px;
+  left: 0px;
+  background-color: black;
   z-index: 1;
 }
 
-header .headerFlex{
-  width:820px;
+#headerFlex{
+  height: 54px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
-  padding-top: 6px;
   align-items:center;
 }
 
-
-header a{
-  position: relative;
-
-  text-decoration:none;
-  color: white;
-  font-size: 16px;
-  padding-left: 20px;
+#logoContainer{
+  width:79px;
+  padding: auto 0px;
+  height:100%;
+}
+#logo{
+  padding-top:15px; 
+  width:79px;
 
 }
-header nav a:before{
-  content:''; 
-  display:block;
-  position:absolute;
-    top:0;
-    bottom: 0;
-    left: 20px;
-    right: 0;
-    height: 227%;
-    width:80%;
-    margin: auto;
-    border-bottom: 5px solid #9a67ea;
-    transform: scale(0);
-    opacity: 0;
-}
-header a:hover{
-  color: #9a67ea;
-}
-header a:hover:before{
-  transform: scale(1);
-  opacity: 1;
-  transition: 0.2s;
+
+#hamber{
+  width: 40px;
+  height: 40px;
+  margin: auto 0px;
+  text-align: center;
 }
 
-
-header img#logo{
-  position: relative;
-  width:40px;
+/*------menu animation*/
+.bar1, .bar2{
+width: 26px;
+height: 2px;
+background-color: white;
+border-radius: 2px;
+margin:12px auto;
+transition: 0.4s;
+}
+.change .bar1 {
+-webkit-transform: rotate(-45deg) translate(-8px, 8px);
+transform: rotate(-45deg) translate(-8px, 7px);
 }
 
-.mobile-bar-wrapper img#logo{
-  position: relative;
-  width:40px;
-  margin-top: 5px;
-  margin-left:16px;
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
+/*--overlay-navigation---------*/
 
-
+nav#overlayNavigation{
+  width: 100%;
+  height: 100%;
+  background:black;
+  opacity: 0.9;
+  display: none;
+}
 
 nav ul {
   width:100%;
-  margin-top: 20px;
-  padding: 0;
-
+  height:1080px;
+  padding-top: 10%;
+  padding-left: 0px;
+  font-size: 1.3em;
+  margin: 0px;
 }
 
 
 nav li{
-    display: inline;
-    color: white;
-    text-align: center;
-    text-decoration: none;
+  padding: 30px 0;
+  display: block;
+  color: white;
+  text-align: center;
 }
 
-#other{
-  opacity: 0.6;
-}
-#project{
-  opacity: 0.6;
-}
-#other:hover{
-  opacity: 1;
+nav li a{
+  padding-left: 0px;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
 }
 
-#project:hover{
+nav li a:hover{
+  color:grey;
   opacity: 1;
+  font-weight: bolder;
 }
+
+
 
 
 
@@ -152,11 +149,11 @@ nav li{
 }
 
 .BIO:before{
-	content: 'Chenghan(Hank) Ke';
+	content: 'HANK KE';
 	font-size: 30px;
   font-family: 'Montserrat', sans-serif;
 	display: block;
-	font-weight: bolder;
+	font-weight: 900;
   letter-spacing: 0.5px;
   line-height: 46px;
 
@@ -165,12 +162,13 @@ nav li{
 .BIO p{
 	letter-spacing: 0.5px;
   line-height: 24px;
-  color:#828282;
+  font-size: 14px;
+  color:#414141;
 }
 
 .BIO a{
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: bold;
 	color: #8200FE;
 }
@@ -212,10 +210,10 @@ nav li{
 
 div.imageContainer{
 	display: block;
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	background-color: blue;
-	border-radius: 200px;
+	border-radius: 1px;
 	/*border-color: black;*/
     background-size: cover;
     background-position: center;
@@ -236,7 +234,7 @@ footer{
 	width:100%;
 	height: 219px;
 	margin-top: 100px;
-	background-color: #673ab7;
+	background-color: black;
 }
 
 .footerWrap{
@@ -290,50 +288,7 @@ p#footerCopyright{
 /*----------Break Point(screen 500-820)---------------------*/
 @media (min-width:778px)and (max-width:860px){
 
-    header{
-    	width:100%;
-    }
-
-	header .headerFlex{
-		width:90%;
-	}
-
-	header .headerFlex nav{
-		margin-right: 20px;
-	}
-    
-    /*------hero page*/
-    .heroPage{
-    	height: auto;
-    }
    
-   div.heroPage .flexBox{
-   	width: 60%;
-   	height: auto;
-   	/*flex-direction:column;*/
-    justify-content: flex-start;
-    align-content:center;
-   }
-
-   
-   p.#bioS{
-   	width: 100%;
-   }
-
-   #Hello {
-   	font-size: 3em;
-   	width:100%;
-   	line-height: 1em;
-   }
-   
-   .projectFlex{
-   	width: 100%; 
-   }
-
-   .socialIcon i{
-   	margin-left: 0px;
-   	margin-right: 20px;
-   }
 
    /*------gallery*/
     .bioWrap{
@@ -365,114 +320,6 @@ p#footerCopyright{
 /*----------Break Point(480  500)---------------------*/
 
 @media screen and (max-width:778px){
-
-    header{
-    	display: none;
-    }
-    
-
-    /*----moblie-showup---*/
-    .mobile-bar-wrapper{
-    	width: 100%;
-    	/*height: 100%;*/
-    	/*background: red;*/
-    	/*background-size: auto;*/
-
-    	display: block;
-    	position: fixed;
-    	top: 0px;
-    	left: 0px;
-    	z-index: 1;
-    }
-    /*------Header fixed--------------------------------*/
-    #headerFlex{
-    	height: 54px;
-    	background-color:#673ab7;
-    	display: flex;
-    	flex-wrap: wrap;
-    	justify-content: space-between;
-    	align-items:center;
-
-    }
-
-    #logoContainer{
-    	/*background: lightblue;*/
-
-    	width:90px;
-    	height:100%;
-    	padding-top:10px;
-    }
-   
-    #hamber{
-    	width: 40px;
-    	height: 40px;
-    /*	background: red;*/
-    }
-    
-    /*------menu animation*/
-    .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
-   }
-   .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-8px, 8px);
-    transform: rotate(-45deg) translate(-8px, 7px);
-    }
-
-    .change .bar2 {opacity: 0;}
-
-    .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        transform: rotate(45deg) translate(-8px, -8px);
-    }
-
-    /*--overlay-navigation---------*/
-
-    nav#overlayNavigation{
-    	width: 100%;
-    	height: 100%;
-    	/*background:#5B2788;*/
-    	background-color:#673ab7;
-    	opacity: 0.9;
-    	/*height:0%;
-    	width: 100%;*/
-    	display: none;
-    	/*transition: 0.5s;*/
-    }
-
-	nav ul {
-		width:100%;
-		height:1080px;
-		padding-top: 40%;
-    	font-size: 1.3em;
-    	margin: 0px;
-	}
-
-
-	nav li{
-		padding: 20px 0;
-	    display: block;
-	    color: white;
-	    text-align: center;
-	}
-
-	nav li a{
-		padding-left: 0px;
-		font-size: 1em;
-		text-decoration: none;
-		color: white;
-	}
-
-	nav li a:hover{
-		color:grey;
-		opacity: 1;
-		font-weight: bolder;
-	}
-
-
 
 /*------hero page-------*/
  
