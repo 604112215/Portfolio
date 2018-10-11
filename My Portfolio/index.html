@@ -14,6 +14,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200i,400,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lalezar|Paytone+One|Rozha+One" rel="stylesheet">
 
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
 </head>
 
 <!------BODY---------------------------------->
@@ -68,12 +70,13 @@
 
 <!------HERO PAGE---------------------------------->
 
-	<div class="heroPage" style="background-image:url(asset/index/hero.png)">
+<div class="heroPage" style="background-image:url(asset/index/hero.png)">
 	   
-	   <div class="constrain" style="background:none;">
-			
+	<div id="heroAnima" class="fadeIn">
+		<div class="constrain" id="heroAnima" style="background:none;">
+		
 			<div id="contentHero">
-				<p id="Hello">Hank is a Product Designer with strong prototyping and implimentation <a href="https://drive.google.com/file/d/1Hpoog0Qh54SJ9NvYo4F2V7boL-COh70n/view" target="_blank">skills</a></p>
+				<p id="Hello" > <strong>HANK KE</strong> <br> Product designer based in San Francisco 🌉 🏳️‍🌈, California, currently work at SFELC </p>
 			</div>
 
 			<div class="resumeBar">
@@ -84,102 +87,139 @@
 					<a href="https://www.linkedin.com/in/chenghan-ke" target="_blank"><i class="fa fa-linkedin"></i></a>
 					<a href="https://medium.com/@hankkechenghan" target="_blank"><i class="fa fa-medium" id="mediumHero"></i></a>
 					
-					<!-- <a href="https://drive.google.com/file/d/1Hpoog0Qh54SJ9NvYo4F2V7boL-COh70n/view" target="_blank"><button>📄RESUME</button></a> -->
 				</div>
 			</div>
-
-		<a href="#selctedWorks"><div class="button"><p>See Highlited Works</p></div></a>
-		</div>
-
-	</div>
-<!------WHO HE IS?---------------------------------->
-<div class="constrain">
-	<div class="catagory">who he is?</div>
-
-	<div class="quotFlex">
-		<div id="quot">
-
-			<p class="quot">An innovative and reliable product designer who worth to cooperate with</p>
-			<div class="button"><p>Resume</p></div>
-		
-		</div>
-		
-		<div class="brif">
-			<p>He worksworks closely with stakeholders and engineers to bridge gaps between users and products. </p>
-				
-				<p>His works have a wide range from digital product design to service design. 
-					He knows how to build a shared understanding with stockholders and engineers by prototyping ideas.  </p>
-					<p>He currently is working at the San Francisco Engineering Leadership Community (SFELC)as a UI designer(part-time). </p>
-			<p>Looking forward to a new position and opportunities.please keep in touch by <a href="mailto:contact@hankkedesign.com" target="_top">email</a> or <a href="https://www.linkedin.com/in/chenghan-ke">LinkedIn</a><p>
+	
 		</div>
 	</div>
+
+	<div id="arrowDown">
+			<i class="fa fa-angle-down"></i>
+	</div>	
+    <div id="constrain" style="background:none;">
+	<a href="#selctedWorks"><div class="button" style="margin:0px auto; "><p>See Highlited Works</p></div></a>	
+	</div>
+
 </div>
 
-<!------Profiles?---------------------------------->
-<div id="black" class="constrain">
-	<div id="prfile">
-			<p id="recommend">"Hank is highly responsive person, He "</p>
-		    <p>-Jerry Li<br>
-				Founder @ SFELC</p>
-	</div>
-</div>
 
 <!------GALLERY Selected work---------------------------------->
 <div class="constrain">
-	<div class="catagory" id="selctedWorks">Highlited Works</div>
-		
-	<div class="projectFlex">
-
-			<!------card 1--------------------------------->
-			<a href="SmartKnob.html"><div class="card">
-				<div class="imageContainer" style="background-image:url(asset/smartknob/cover.jpg)"></div>
-
-				<div class="contentCover">
-					<h2>Smart Knob</h2>
-					<div>IOT | Conversational Interface | Prototype</div>
-				</div>
-
-			</div></a>
-
-		<!------card 2--------------------------------->
-			<a href="sfelc.html"><div class="card">
-				<div class="imageContainer" style="background-image:url(asset/pemhub/cover.jpg)"></div>
-
-				<div class="contentCover">
-					<h2>SFELC</h2>
-					<div>Part-time</div>
-				</div>
-
-			</div></a>
-
-		<!------card 3--------------------------------->
-			<a href="costco.html"><div class="card">
+			<div class="catagory" id="selctedWorks">Highlited Works</div>
 				
-				<div class="imageContainer" style="background-image:url(asset/costco/COVER.jpg)"></div>
+		<div id="galleryAnima">	
+			<div class="projectFlex">
+                
+				<!------card 1--------------------------------->
+				<a href="sfelc.html"><div class="card">
+					<div class="imageContainer" style="background-image:url(asset/pemhub/cover.jpg)"></div>
 
-				<div class="contentCover">
-					<h2>Costco Sharing</h2>
-					<div>Service Design | Prototype | Insight</div>
-				</div>
+					<div class="contentCover">
+						<h2>SFELC</h2>
+						<div>Intern</div>
+					</div>
 
-			</div></a>
+				</div></a>
 
-		
+				<!------card 2--------------------------------->
+				<a href="SmartKnob.html"><div class="card">
+					<div class="imageContainer" style="background-image:url(asset/smartknob/cover.jpg)"></div>
 
-				<!------card 4--------------------------------->
-			<a href="projectMirror.html"><div class="card">
-				
-				<div class="imageContainer" style="background-image:url(asset/mirror/mirrorCover.jpg)"></div>
+					<div class="contentCover">
+						<h2>Smart Knob</h2>
+						<div>IOT | Conversational Interface | Prototype</div>
+					</div>
 
-				<div class="contentCover">
-					<h2>Mirror</h2>
-					<div>Computer Vision | Behavior Design | Prototype</div>
-				</div>
+				</div></a>
 
-			</div></a>
 
-		</div>
+			<!------card 3--------------------------------->
+				<a href="costco.html"><div class="card">
+					
+					<div class="imageContainer" style="background-image:url(asset/costco/COVER.jpg)"></div>
+
+					<div class="contentCover">
+						<h2>Costco Sharing</h2>
+						<div>Service Design | Prototype | Insight</div>
+					</div>
+
+				</div></a>
+
+			
+
+					<!------card 4--------------------------------->
+				<a href="projectMirror.html"><div class="card">
+					
+					<div class="imageContainer" style="background-image:url(asset/mirror/mirrorCover.jpg)"></div>
+
+					<div class="contentCover">
+						<h2>Mirror</h2>
+						<div>Computer Vision | Behavior Design | Prototype</div>
+					</div>
+				</div></a>
+
+			</div>
+		</div>	
 </div>
+
+
+
+<!------Profiles?---------------------------------->
+
+<div id="black" class="constrain">
+	<div id="prfile">
+		<div id="profileAnima">
+			<p id="recommend">"Hank is a highly responsive designer whoes creative designs make an impressive user experience "</p>
+		    <p>-<br><a href="https://www.linkedin.com/in/jerry-li-1bb1177/" target="_blank" style="color: white; text-decoration: underline;font-weight: 700;" >Jerry Li</a><br>
+				Founder @ SFELC</p>
+		</div>
+	</div>
+
+</div>
+
+
+
+<!------WHO HE IS?---------------------------------->
+<div class="constrain">
+	<div class="catagory">who he is?</div>
+    
+	<div class="quotFlex">
+
+		<div id="profileRight">
+			<div id="quot">
+
+				<p class="quot">An innovative and reliable product designer who worth to cooperate with</p>
+
+				<div id="hidden">
+					<p>He worksworks closely with stakeholders and engineers to bridge gaps between users and products. </p>
+					
+					<p>His works have a wide range from digital product design to service design. 
+						He knows how to build a shared understanding with stockholders and engineers by prototyping ideas.  </p>
+						<p>He currently is working at the San Francisco Engineering Leadership Community (SFELC)as a UI designer(part-time). </p>
+					<p>Looking forward to a new position and opportunities.please keep in touch by <a href="mailto:contact@hankkedesign.com" target="_top" style="color: #673ab7; text-decoration: underline; font-weight: 700;">Email</a> or <a href="https://www.linkedin.com/in/chenghan-ke" target="_top" style="color: #673ab7; text-decoration: underline;font-weight: 700;">LinkedIn</a> .</p>
+				</div>
+                
+                <a href="https://drive.google.com/file/d/1Hpoog0Qh54SJ9NvYo4F2V7boL-COh70n/view" target="_blank">
+				<div class="button"><p>Resume</p></div>
+				</a>
+			</div>
+        </div>
+
+
+		<div id="profileLeft">
+			<div class="brif">
+				<p>Worked closely with founder and engineers to bridge gaps between users and products. </p>
+					
+					<p>His works have a wide range from digital product design to service design. He is good at building a common understanding with stockholders and engineers by mapping and prototyping ideas.  </p>
+
+						<p>Currently working at the San Francisco Engineering Leadership Community (SFELC)as a UI designer(internship). </p>
+				<p>Looking forward to a new position and opportunities.please keep in touch by <a href="mailto:contact@hankkedesign.com" target="_top" style="color: #673ab7; text-decoration: underline; font-weight: 700;">Email</a> or <a href="https://www.linkedin.com/in/chenghan-ke" target="_top" style="color: #673ab7; text-decoration: underline;font-weight: 700;">LinkedIn</a> .</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 
 <!------FOOTER---------------------------------->
 	<footer>
@@ -217,6 +257,7 @@
 		  crossorigin="anonymous"></script>
 
     <script src="indexJavascript.js"></script>
+    <script src="animationIndex.js"></script>
 
 </body>
 </html>
