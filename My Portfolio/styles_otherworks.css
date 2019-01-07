@@ -142,8 +142,8 @@ nav li a:hover{
 			height:120px;
 			border-top-left-radius: 4px;
 		    border-top-right-radius: 4px;
-	        background-size: 800px ;
-		    background-position: center;
+	      background-size: 800px ;
+		    background-position: cover;
 		    background-repeat: no-repeat;
 		}
 

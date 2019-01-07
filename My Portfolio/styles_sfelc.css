@@ -211,6 +211,23 @@ p.text1 strong{
   font-weight:700;
 }
 
+.highlight{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size:17px;
+  font-weight: 200;
+  color: #414141;
+  background-color: #F6F6F6;
+  padding: 20px 70px;
+}
+
+.highlight_problem{
+ font-family: 'Montserrat', sans-serif;
+  font-size:17px;
+  font-weight: 700;
+}
+
+
 
  /*---------- Main Page ----------------------------------------*/
 

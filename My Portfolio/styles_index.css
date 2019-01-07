@@ -20,11 +20,14 @@ a{
   text-decoration: none;
 }
 /*animation defnation*/
+
+
+
 .slideUp {
     animation-name: slideUp;
     -webkit-animation-name: slideUp;
-    animation-duration: 3s;
-    -webkit-animation-duration: 3s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
     visibility: visible;
 }
 
@@ -48,6 +51,15 @@ a{
  #arrowDown{
   animation: jump 2s infinite;
 }
+
+@keyframes boardcastAni {
+  0%   {opacity: 0;}
+  25%  {opacity: 1;}
+  50%  {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+
 
 
 @keyframes slideUp {
@@ -266,6 +278,22 @@ nav li a:hover{
   color: #673ab7;
   text-decoration: underline;
 }
+#boardcast{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  opacity:1;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+  line-height: 60px;
+}
+
+#boardcast strong{
+  /*text-decoration: underline;*/
+  opacity:0;
+}
+
 
 
 div#contentHero{
@@ -436,6 +464,10 @@ margin: 20px auto;
 
 
 /*---------- GALLERY ----------------------------------------*/
+
+  #galleryAnima{
+    opacity: 0;
+  }
 
 	.projectFlex{
       width: 100%;
